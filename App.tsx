@@ -1,3 +1,5 @@
+import Scanner from './Scanner';
+import { getGeminiResponse } from './geminiService';
 import React, { useState, useEffect, Component } from 'react';
 import { 
   LayoutDashboard, 
